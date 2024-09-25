@@ -33,8 +33,8 @@ encoding_app/
 1. **Clone the repository** :
 
    ```bash
-   git clone <repository-url>
-   cd encoding_app
+   git clone https://github.com/YashitaCodes/encode-me.git
+   cd encode-me
    ```
 
 2. **Create a virtual environment** (optional but recommended):
@@ -72,14 +72,6 @@ encoding_app/
 3. Select the encoding algorithm (Base64, MD5, SHA-256, AES).
 4. Click "Encode" to get the result.
 5. You can copy the encoded result to your clipboard using the "Copy to Clipboard" button.
-
-## Dependencies
-
-- `tkinter`: For building the GUI.
-- `cryptography`: For AES encryption.
-- `pyperclip`: For copying results to the clipboard.
-
-All dependencies are listed in `requirements.txt`.
 
 ## Future Enhancements
 
